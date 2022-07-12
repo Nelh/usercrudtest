@@ -58,5 +58,12 @@ const submit = () => {
                 </BreezeButton>
             </div>
         </form>
+        <template #footer>
+            <Link :href="route('login')">
+                <span class="text-slate-800 font-bold">
+                    or Login
+                </span>
+            </Link>
+        </template>
     </BreezeGuestLayout>
 </template>
